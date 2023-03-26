@@ -6,7 +6,7 @@ import { BsMessenger } from "react-icons/bs";
 const Home = () => {
     return (
         <div>
-            <BsMessenger className="msnger" size={40} />
+            <a href=""> <BsMessenger className="msnger" /></a>
             <Banner />
         </div>
     );

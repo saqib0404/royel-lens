@@ -15,9 +15,9 @@ const Footer = () => {
             <div className='flex  flex-col items-center '>
                 <span className="footer-title">Social</span>
                 <div className="grid grid-flow-col gap-4">
-                    <a className="cursor-pointer"><AiOutlineTwitter size={25}/></a>
-                    <a className="cursor-pointer"><GrInstagram size={25}/></a>
-                    <a className="cursor-pointer">< FaFacebookF size={25}/></a>
+                    <a href="" className="cursor-pointer"><AiOutlineTwitter size={25}/></a>
+                    <a href="" className="cursor-pointer"><GrInstagram size={25}/></a>
+                    <a href="" className="cursor-pointer">< FaFacebookF size={25}/></a>
                 </div>
             </div>
         </footer>
