@@ -3,6 +3,8 @@ import logo from '../../assets/favicon.png';
 import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { AiOutlineTwitter } from "react-icons/ai";
+import { FaTiktok } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -16,8 +18,10 @@ const Footer = () => {
                 <span className="footer-title">Social</span>
                 <div className="grid grid-flow-col gap-4">
                     <a href="" className="cursor-pointer"><AiOutlineTwitter size={25}/></a>
-                    <a href="" className="cursor-pointer"><GrInstagram size={25}/></a>
-                    <a href="" className="cursor-pointer">< FaFacebookF size={25}/></a>
+                    <a href="" className="cursor-pointer"><BsWhatsapp size={25}/></a>
+                    <a href="https://www.instagram.com/royallensbd/" target='_blank' rel="noreferrer"git className="cursor-pointer"><GrInstagram size={25}/></a>
+                    <a href="https://www.tiktok.com/@royallensbdofficial" target='_blank' rel="noreferrer"className="cursor-pointer">< FaTiktok size={25}/></a>
+                    <a href="https://www.facebook.com/royallensbdofficial" target='_blank' rel="noreferrer" className="cursor-pointer">< FaFacebookF size={25}/></a>
                 </div>
             </div>
         </footer>
