@@ -17,11 +17,11 @@ const Footer = () => {
             <div className='flex  flex-col items-center '>
                 <span className="footer-title">Social</span>
                 <div className="grid grid-flow-col gap-4">
-                    <a href="" className="cursor-pointer"><AiOutlineTwitter size={25}/></a>
-                    <a href="" className="cursor-pointer"><BsWhatsapp size={25}/></a>
-                    <a href="https://www.instagram.com/royallensbd/" target='_blank' rel="noreferrer"git className="cursor-pointer"><GrInstagram size={25}/></a>
-                    <a href="https://www.tiktok.com/@royallensbdofficial" target='_blank' rel="noreferrer"className="cursor-pointer">< FaTiktok size={25}/></a>
-                    <a href="https://www.facebook.com/royallensbdofficial" target='_blank' rel="noreferrer" className="cursor-pointer">< FaFacebookF size={25}/></a>
+                    <a href="" className="cursor-pointer hover:scale-150 transition-all duration-200"><AiOutlineTwitter size={25}/></a>
+                    <a href='https://wa.me/1777302813' target='_blank' rel="noreferrer" className="cursor-pointer hover:scale-150 transition-all duration-200"><BsWhatsapp size={25}/></a> 
+                    <a href="https://www.instagram.com/royallensbd/" target='_blank' rel="noreferrer" className="cursor-pointer hover:scale-150 transition-all duration-200"><GrInstagram size={25}/></a>
+                    <a href="https://www.tiktok.com/@royallensbdofficial" target='_blank' rel="noreferrer"className="cursor-pointer hover:scale-150 transition-all duration-200">< FaTiktok size={25}/></a>
+                    <a href="https://www.facebook.com/royallensbdofficial" target='_blank' rel="noreferrer" className="cursor-pointer hover:scale-150 transition-all duration-200">< FaFacebookF size={25}/></a>
                 </div>
             </div>
         </footer>

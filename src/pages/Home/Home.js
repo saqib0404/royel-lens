@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import './Home.css';
 import { BsMessenger } from "react-icons/bs";
-import Shades from './Shades/Shades';
 import { toast } from 'react-hot-toast';
 import Glassess from './Glassess/Glassess';
 
